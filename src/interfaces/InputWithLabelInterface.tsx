@@ -1,11 +1,11 @@
-import {KeyboardTypeOptions} from 'react-native';
+import {KeyboardType} from 'react-native';
 
 interface InputWithLabelInterface {
     labelText: string,
     onChange: ((text: string) => void) | undefined,
     value: string,
     secureTextEntry: boolean,
-    keyboardType: KeyboardTypeOptions | undefined
+    keyboardType: KeyboardType | undefined
 }
 
 export type {InputWithLabelInterface};

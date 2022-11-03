@@ -4,7 +4,7 @@ import {InputWithLabelInterface} from '../../interfaces'
 
 export default function InputWithLabel({
                                            labelText,
-                                           keyboardType,
+                                           keyboardType='default',
                                            onChange,
                                            value,
                                            secureTextEntry = false,
