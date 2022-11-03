@@ -1,7 +1,7 @@
 import {View, Text, StyleSheet} from 'react-native';
 import {ItemCardInterface} from '../../interfaces';
 
-export default function ItemCard({userId, title}: ItemCardInterface) {
+export default function ItemCard({userId, title, id}: ItemCardInterface) {
     return (
         <View style={styles.container}>
             <Text style={styles.titleText}>{title}</Text>
