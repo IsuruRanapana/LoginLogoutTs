@@ -1,8 +1,8 @@
 import { GestureResponderEvent } from "react-native";
 
-interface buttonInterface {
+interface ButtonInterface {
     labelText: string,
     onPress:  ((event: GestureResponderEvent)=>void) | undefined,
 }
 
-export type {buttonInterface}
+export type {ButtonInterface}
