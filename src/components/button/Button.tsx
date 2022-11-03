@@ -1,8 +1,8 @@
 import React from "react";
 import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
-import {buttonInterface} from '../../interfaces/ButtonInterface';
+import {ButtonInterface} from '../../interfaces';
 
-export default function Button({ labelText, onPress }:buttonInterface) {
+export default function Button({ labelText, onPress }:ButtonInterface) {
     return (
         <TouchableOpacity onPress={onPress}>
             <View style={styles.container}>
